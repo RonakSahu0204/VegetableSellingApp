@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="gen_black">#000000</color>
+    <color name="gen_white">#FFFFFF</color>
+    <color name="green_light">#43A047</color>
+    <color name="grey_light">#E0E0E0</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#836d2d</color>
+    <color name="dot_dark_screen2">#2d8372</color>
+    <color name="dot_dark_screen3">#6e832d</color>
+    <color name="dot_dark_screen4">#2d7a83</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#c9c136</color>
+    <color name="dot_light_screen2">#40d2b5</color>
+    <color name="dot_light_screen3">#a5c642</color>
+    <color name="dot_light_screen4">#41c0cf</color>
+
+    <!-- Placeholder colors-->
+    <color name="stay_color">#999999</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+    <color name="colorPrimary">#a9e110</color>
+    <color name="colorPrimary1">#7aa10e</color>
+    <color name="colorPrimaryDark">#84c416</color>
+    <color name="headingtextcolor">#59861b</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#8bc120</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#d95678</color>
+
+    <color name="nocolor">#00bcff40</color>
+
+    <color name="chatboticon">#f5f3ef</color>
+
+    <color name="special_black_color">#282828</color>
+    <!--Use this with the normal text color blue combination-->
+
+    <color name="drawabletint">#59861b</color>
+    <color name="normaltextcolor">#59861b</color>
+    <color name="desccolor">#22b5d2</color>
+    <color name="titletextcolor">#1e9db7</color>
+    <color name="headingshadowcolor">#2092a1</color>
+    <color name="black_overlay">#efca2020</color>
+
+
+
+</resources>

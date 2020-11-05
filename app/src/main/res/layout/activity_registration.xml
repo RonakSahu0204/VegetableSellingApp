@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:id="@+id/actionBar1"
+            android:layout_weight="10"
+            android:background="@drawable/nav_style1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<ImageButton
+                android:id="@+id/backButton1"
+                android:elevation="5dp"
+                android:layout_margin="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/back1"
+                android:scaleType="fitCenter"
+                android:padding="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />-->
+
+            <TextView
+                android:id="@+id/userRegistrationPageTitle"
+                android:layout_centerInParent="true"
+                android:text="Lets Sign-Up"
+                android:shadowColor="#2092a1"
+                android:shadowRadius="5"
+                android:fontFamily="serif"
+                android:textSize="21sp"
+                android:textColor="@color/headingtextcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--<ImageButton
+                android:transitionName="logo1"
+                android:layout_margin="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentRight="true"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/logo"
+                android:padding="0dp"
+                android:scaleType="centerInside"
+                android:layout_width="52dp"
+                android:layout_height="45dp" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_alignParentTop="true"
+                            android:layout_width="320dp"
+                            android:elevation="10dp"
+                            android:layout_height="500dp"
+                            app:cardBackgroundColor="#ffffff"
+                            app:cardCornerRadius="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingTop="20dp"
+                                android:paddingBottom="20dp"
+                                android:orientation="vertical">
+
+
+
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:alpha="0.9"
+                                    android:orientation="horizontal"
+                                    android:gravity="center"
+                                    android:layout_weight="1"
+                                    >
+
+
+
+                                    <EditText
+                                        android:layout_width="270dp"
+                                        android:layout_height="42dp"
+                                        android:alpha="0.8"
+                                        android:id="@+id/firstName"
+                                        android:maxLines="1"
+                                        android:background="@drawable/edittext_shape"
+                                        android:drawableLeft="@drawable/ic_person_black_24dp"
+                                        android:drawablePadding="10sp"
+                                        android:hint="First name"
+                                        android:paddingLeft="14sp"
+                                        android:drawableTint="@color/drawabletint"
+                                        android:textColor="#59861b"
+                                        android:textColorHint="#59861b"
+                                        android:textSize="19sp"
+                                        android:inputType="textPersonName"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:alpha="0.9"
+                                    android:orientation="horizontal"
+                                    android:gravity="center"
+                                    android:layout_weight="1"
+                                    >
+
+
+
+                                    <EditText
+                                        android:layout_width="270dp"
+                                        android:layout_height="42dp"
+                                        android:alpha="0.8"
+                                        android:id="@+id/lastName"
+                                        android:maxLines="1"
+                                        android:background="@drawable/edittext_shape"
+                                        android:drawableLeft="@drawable/ic_portrait_black_24dp"
+                                        android:drawablePadding="10sp"
+                                        android:hint="Last name"
+                                        android:paddingLeft="12.5sp"
+                                        android:drawableTint="@color/drawabletint"
+                                        android:textColor="#59861b"
+                                        android:textColorHint="#59861b"
+                                        android:textSize="19sp"
+                                        android:inputType="textPersonName"/>
+
+
+
+
+
+                                </LinearLayout>
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:alpha="0.9"
+                                    android:orientation="horizontal"
+                                    android:gravity="center"
+                                    android:layout_weight="1"
+                                    >
+
+
+
+                                    <EditText
+                                        android:layout_width="270dp"
+                                        android:layout_height="42dp"
+                                        android:alpha="0.8"
+                                        android:id="@+id/usernameRegistration"
+                                        android:background="@drawable/edittext_shape"
+                                        android:drawableLeft="@drawable/ic_email_black_24dp"
+                                        android:drawablePadding="10sp"
+                                        android:hint="Email"
+                                        android:maxLines="1"
+                                        android:paddingLeft="14sp"
+                                        android:inputType="textEmailAddress"
+                                        android:drawableTint="@color/drawabletint"
+                                        android:textColor="#59861b"
+                                        android:textColorHint="#59861b"
+                                        android:textSize="19sp"
+                                        />
+
+
+
+
+
+                                </LinearLayout>
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:alpha="0.9"
+                                    android:orientation="horizontal"
+                                    android:gravity="center"
+                                    android:layout_weight="1"
+                                    >
+
+
+
+                                    <EditText
+                                        android:layout_width="270dp"
+                                        android:layout_height="42dp"
+                                        android:alpha="0.8"
+                                        android:id="@+id/phoneNumber"
+                                        android:background="@drawable/edittext_shape"
+                                        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                                        android:drawablePadding="10sp"
+                                        android:hint="Contact no."
+                                        android:inputType="phone"
+                                        android:maxLines="1"
+                                        android:paddingLeft="14sp"
+                                        android:drawableTint="@color/drawabletint"
+                                        android:textColor="#59861b"
+                                        android:textColorHint="#59861b"
+                                        android:textSize="19sp"
+                                        />
+
+
+
+
+
+                                </LinearLayout>
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:alpha="0.9"
+                                    android:orientation="horizontal"
+                                    android:gravity="center"
+                                    android:layout_weight="1"
+                                   >
+
+
+
+                                    <EditText
+                                        android:layout_width="270dp"
+                                        android:layout_height="42dp"
+                                        android:alpha="0.8"
+                                        android:id="@+id/address"
+                                        android:background="@drawable/edittext_shape"
+                                        android:drawableLeft="@drawable/ic_my_location_black_24dp"
+                                        android:drawablePadding="10sp"
+                                        android:hint="Address"
+                                        android:paddingLeft="14sp"
+                                        android:drawableTint="@color/drawabletint"
+                                        android:textColor="#59861b"
+                                        android:textColorHint="#59861b"
+                                        android:textSize="19sp"
+                                        android:inputType="textPostalAddress"/>
+
+
+
+
+
+                                </LinearLayout>
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:alpha="0.9"
+                                    android:orientation="horizontal"
+                                    android:gravity="center"
+                                    android:layout_weight="1"
+                                    >
+
+
+                                    <LinearLayout
+                                        android:layout_width="275dp"
+                                        android:layout_height="42dp"
+                                        android:background="@drawable/edittext_shape"
+                                        android:orientation="horizontal">
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="6">
+
+                                            <!--<EditText-->
+                                            <!--android:layout_width="match_parent"-->
+                                            <!--android:layout_height="match_parent"-->
+                                            <!--android:alpha="0.8"-->
+                                            <!--android:id="@+id/locality"-->
+                                            <!--android:maxLines="1"-->
+                                            <!--android:background="@drawable/edittext_shape"-->
+                                            <!--android:drawableLeft="@drawable/ic_place_black_24dp"-->
+                                            <!--android:drawablePadding="10sp"-->
+                                            <!--android:hint="Locality"-->
+                                            <!--android:paddingLeft="14sp"-->
+                                            <!--android:drawableTint="@color/drawabletint"-->
+                                            <!--android:textColor="#59861b"-->
+                                            <!--android:textColorHint="#59861b"-->
+                                            <!--android:textSize="19sp"-->
+                                            <!--android:inputType="textPostalAddress"/>-->
+
+                                            <Spinner
+                                                android:id="@+id/localitySpinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"></Spinner>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="3.6">
+
+                                            <Spinner
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:id="@+id/side"></Spinner>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+
+
+
+
+
+
+                                </LinearLayout>
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:orientation="horizontal"
+                                    android:gravity="center"
+                                    android:alpha="0.9"
+                                    android:layout_weight="1"
+                                    >
+
+
+                                    <RelativeLayout
+                                        android:id="@+id/combo3"
+                                        android:background="@drawable/edittext_shape"
+                                        android:layout_width="270dp"
+                                        android:layout_height="42dp">
+
+                                        <EditText
+                                            android:id="@+id/passwordRegistration"
+                                            android:layout_width="228dp"
+                                            android:layout_height="42dp"
+                                            android:layout_alignParentTop="true"
+                                            android:layout_toLeftOf="@+id/seePass3"
+                                            android:alpha="0.8"
+                                            android:background="?selectableItemBackground"
+                                            android:drawableLeft="@drawable/security1"
+                                            android:drawablePadding="10sp"
+                                            android:hint="Password"
+                                            android:lines="1"
+                                            android:maxLines="1"
+                                            android:inputType="textPassword"
+                                            android:paddingLeft="14sp"
+                                            android:paddingRight="10dp"
+                                            android:fontFamily="sans-serif"
+                                            android:drawableTint="@color/drawabletint"
+                                            android:textColor="#59861b"
+                                            android:textColorHint="#59861b"
+                                            android:textSize="19sp" />
+
+
+                                        <TextView
+                                            android:layout_alignParentRight="true"
+                                            android:layout_width="27dp"
+                                            android:layout_height="27dp"
+                                            android:layout_marginRight="12dp"
+                                            android:layout_centerVertical="true"
+                                            android:background="@drawable/security3"
+                                            android:id="@+id/seePass3" />
+
+
+                                    </RelativeLayout>
+
+
+                                </LinearLayout>
+
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:alpha="0.9"
+                                    android:orientation="horizontal"
+                                    android:gravity="center"
+                                    android:layout_weight="1"
+                                    >
+
+
+
+                                    <EditText
+                                        android:layout_width="270dp"
+                                        android:layout_height="42dp"
+                                        android:alpha="0.8"
+                                        android:maxLines="1"
+                                        android:id="@+id/passwordRegistrationConfirmation"
+                                        android:background="@drawable/edittext_shape"
+                                        android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                                        android:drawablePadding="10sp"
+                                        android:hint="Verify Password"
+                                        android:paddingLeft="14sp"
+                                        android:inputType="textPassword"
+                                        android:fontFamily="sans-serif"
+                                        android:drawableTint="@color/drawabletint"
+                                        android:textColor="#59861b"
+                                        android:textColorHint="#59861b"
+                                        android:textSize="19sp"
+                                        />
+
+
+
+
+
+                                </LinearLayout>
+
+
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:alpha="0.9"
+
+                                    android:layout_weight="1">
+
+
+
+                                    <Button
+                                        android:id="@+id/registerButton"
+                                        android:layout_width="270dp"
+                                        android:layout_height="42dp"
+                                        android:shadowRadius="20"
+                                        android:shadowColor="#188270"
+                                        android:background="@drawable/button_style1"
+                                        android:text="Sign Up"
+                                        android:textAllCaps="false"
+                                        android:textStyle="bold"
+                                        android:textColor="#ffffff"
+                                        android:textSize="20sp"
+                                        />
+
+
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

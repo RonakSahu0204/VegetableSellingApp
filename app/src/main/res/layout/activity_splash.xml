@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".activity.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/terna" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/imglogo"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:scrollbarSize="20dp"
+        android:shadowColor="@color/normaltextcolor"
+        android:shadowRadius="20"
+        android:text="जनसेवा"
+        android:textColor="@color/normaltextcolor"
+        android:textSize="23dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/copy"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:scrollbarSize="20dp"
+        android:shadowColor="@color/normaltextcolor"
+        android:text="Developed by WebDroid"
+        android:textColor="@color/normaltextcolor"
+        android:textSize="14dp" />
+
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:scrollbarSize="20dp"
+        android:shadowColor="@color/normaltextcolor"
+        android:text="Developed by WebDroid © "
+        android:textColor="@color/normaltextcolor"
+        android:textSize="14dp" />
+
+</RelativeLayout>

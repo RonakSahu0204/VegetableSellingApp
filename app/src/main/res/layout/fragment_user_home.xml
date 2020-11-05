@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.UserHomeFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:focusableInTouchMode="true"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:alpha="0.8"
+            android:id="@+id/searchBar"
+            android:maxLines="1"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:inputType="textShortMessage"
+            android:background="@drawable/edittext_shape"
+            android:drawableLeft="@drawable/ic_youtube_searched_for_black_24dp"
+            android:drawablePadding="10sp"
+            android:drawableTint="@color/drawabletint"
+            android:hint="Search Items"
+            android:paddingLeft="14sp"
+            android:textColor="#59861b"
+            android:textColorHint="#59861b"
+            android:textSize="19sp"
+            />
+
+        <!--<GridView
+            android:id="@+id/shoppingList"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/searchBar"
+            android:numColumns="2"
+            android:clickable="true"
+            android:background="#17b3ff00"
+            android:layout_marginBottom="0dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="0dp"
+            android:paddingHorizontal="3dp"
+            android:clipToPadding="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:scrollbarStyle="outsideOverlay" />-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewProduct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/searchBar"
+            android:background="#17b3ff00"
+            android:paddingTop="3dp"
+            android:paddingBottom="0dp"
+            android:paddingHorizontal="3dp"
+            android:clipToPadding="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/ifSellerListEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:text="@string/ifSellerListEmpty"
+        />
+
+</LinearLayout>

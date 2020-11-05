@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!-- <item
+             android:id="@+id/nav_camera"
+             android:icon="@drawable/ic_menu_camera"
+             android:title="Import" />-->
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/edit_profile"
+            android:title="Edit Profile" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/my_cart_icon"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/my_orders_icon"
+            android:title="My Orders" />
+        <!--<item-->
+        <!--android:id="@+id/statistics"-->
+        <!--android:title="Order statistics"-->
+        <!--android:icon="@drawable/my_stat_icon"/>-->
+
+
+        <item
+            android:id="@+id/userwise"
+            android:icon="@drawable/my_stat_icon"
+            android:title="User Wise Orders" />
+
+        <item
+            android:id="@+id/localitywise"
+            android:icon="@drawable/my_stat_icon"
+            android:title="Locality Wise Orders" />
+
+
+        <item
+            android:id="@+id/overall_invoice"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Over All Invoice"/>
+
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="History" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_local_phone_black_24dp"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Sign out" />
+
+
+
+
+
+    </group>
+
+</menu>
